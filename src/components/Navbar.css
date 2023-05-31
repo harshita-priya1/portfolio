@@ -1,0 +1,50 @@
+.nav {
+    background-image: linear-gradient(to right,rgba(57, 24, 80, 0.8),rgba(253, 170, 209, 0.4), rgba(248, 173, 255,0));
+    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
+    /* border: 2px solid black; */
+    width: 100svw;
+    color: white;
+    /* height: 10px; */
+    position: fixed;
+    top:0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1.5fr 1fr;
+    gap: 1.5rem;
+    font-size: 1rem;
+    /* grid-template-areas: "logo l1 l2 l3 l4 l5 nav-btn"; */
+}
+.logo {
+    width: auto;
+    height: 5em;
+    /* margin: 0 2svh 0 3svh ; */
+    /* background-color: rgba(160, 154, 165, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 50%; */
+}
+.l {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 0 8rem 0 1rem;
+}
+a {
+    font-family: 'Lora', serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.nav-btn {
+    font-family: 'Lora', serif;
+    color: rgba(60, 19, 94, 0.8);
+    font-size: 1em;
+    padding: 0.5em 0.75em;
+    margin: 0.5em;
+    border: 0.1em solid transparent;
+    border-radius: 0.75em;
+    font-weight: bold;
+}

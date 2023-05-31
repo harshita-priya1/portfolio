@@ -1,0 +1,25 @@
+.about {
+    /* background-color: #b38a69; */
+    /* background-color: #ad7c59; */
+    background-color: #987554;
+    background-size: 100svw 100svh; /* Adjust the image size to cover the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+    display: flex;
+    height: 100svh;
+    width: 100svw;
+}
+.image {
+    height: 100svh;
+    width: auto;
+}
+.text {
+    margin: 5svw 5svh 5svw 5svh;
+    font-size: 1.5rem;
+}
+h1 {
+    color: #4a301e;
+}
+h3 {
+    color: bisque;
+}

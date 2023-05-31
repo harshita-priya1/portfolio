@@ -1,0 +1,42 @@
+.home{
+    /* background-image: url("../assets/bgImg.png"); */
+    background-color: #4E2F2E;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100svw;
+}
+.left {
+    /* background-color: rgba(160, 154, 165, 0.2);
+    backdrop-filter: blur(2px); */
+    display: flex;
+    flex-direction: column;
+    margin: 5svw 5svh 2svh 2svw;
+    color: white;
+    justify-content: center;
+    font-size: 2rem;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+.sideImg{
+    height: 100svh;
+    width: auto;
+}
+::-webkit-scrollbar {
+    display: none; /* Set a width for the scrollbar (optional) */
+  }
