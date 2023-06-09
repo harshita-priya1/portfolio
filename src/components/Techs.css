@@ -1,5 +1,38 @@
 .tech {
-    background-color: beige;
+    /* background-color: #654321; */
+    /* background-color: #6b4423; */
+    background-color: #2e1503;
     height: 100svh;
     width: 100svw;
+    color: bisque;
+    /* padding: 4em; */
+}
+.tcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+}
+.ltt{
+    padding: 1em;
+    font-size: 3em;
+}
+.stt{
+    font-size: 2em;
+    align-self: center;
+}
+.ic {
+    height: 7em;
+    width: auto;
+}
+.skills {
+    margin: 1em;
+    display: grid;
+    padding-left: 2em;
+    grid-template-columns: 5em 5em 5em;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 2.5em;
+    column-gap: 4em;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 1em; */
 }

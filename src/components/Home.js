@@ -1,5 +1,5 @@
 import './Home.css'
-import logo from "../assets/logo.png"
+// import logo from "../assets/logo.png"
 import sideImg from "../assets/sideImg.jpg"
 
 
@@ -8,11 +8,11 @@ const Home = () => {
         <div className="home">
             <div className="content">
                 <div className="left">
-                    <h2 className='tl1'>Hello! ♡</h2>
-                    <h4 className='tl2'>Welcome to my portfolio page...</h4>
+                    <h1 className='lth'>Hello! ♡</h1>
+                    <h3>Welcome to my portfolio page...</h3>
                 </div>
                 <div className="right">
-                    <img src={sideImg} className='sideImg'/>
+                    <img src={sideImg} className='sideImg' alt='Mainimage'/>
                     {/* <img src={glowCircle} className='glowCircle' alt='glow circle'/> */}
                     {/* <h3 className='tr1'>Harshita Priya</h3> */}
                 </div>

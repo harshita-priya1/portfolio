@@ -1,0 +1,11 @@
+* {
+    font-family: 'Garet-Book';
+    /* overflow: auto; */
+}
+
+@font-face {
+    font-family: 'Garet-Book';
+    src: url('./assets/fonts/Garet-Book.otf') format('opentype'), /* IE6-IE8 */
+         url('./assets/fonts/Garet-Book.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/Garet-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
