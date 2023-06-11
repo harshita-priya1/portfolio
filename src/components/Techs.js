@@ -1,17 +1,8 @@
 import "./Techs.css"
-import htmll from "../assets/skillicons/html.png"
-import cssl from "../assets/skillicons/css.png"
-import jsl from "../assets/skillicons/javascript.png"
-import rl from "../assets/skillicons/react.png"
-import fl from "../assets/skillicons/flutter.png"
-import njl from "../assets/skillicons/node.png"
-// import ejl from "../assets/skillicons/express.png"
-import msl from "../assets/skillicons/mysql.png"
-import mdl from "../assets/skillicons/mongo.png"
-import cl from "../assets/skillicons/cl.png"
-import cppl from "../assets/skillicons/cppl.png"
-import pyl from "../assets/skillicons/python.png"
-import ghl from "../assets/skillicons/git.png"
+import front from "../assets/front-end.png"
+import back from "../assets/back-end.png"
+import appdev from "../assets/app-dev.png"
+import ml from "../assets/ml.png"
 
 
 
@@ -19,7 +10,29 @@ const Techs = () => {
     return(
         <div className="tech">
             <div className="tech-content">
-                <h1 className="tech-title">Skills</h1>
+                <div className="tech-title"><b>Skills</b></div>
+                <div className="tech-skills">
+                    <div className="techs">
+                        <img src={front} className="image"></img>
+                        <div>Front-end Development</div>
+                        <p>HTML, CSS, JAVASCRIPT, React JS</p>
+                    </div>
+                    <div className="techs">
+                        <img src={back} className="image"></img>
+                        <div>Back-end Development</div>
+                        <p>Node JS, Express JS</p>
+                    </div>
+                    <div className="techs">
+                        <img src={appdev} className="image"></img>
+                        <div>App Development</div>
+                        <p>Flutter</p>
+                    </div>
+                    <div className="techs">
+                        <img src={ml} className="image"></img>
+                        <div>Machine Learning</div>
+                        <p>Python, TensorFlow, Panda, OpenCV</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
@@ -27,6 +40,20 @@ const Techs = () => {
 
 export default Techs
 
+
+// import htmll from "../assets/skillicons/html.png"
+// import cssl from "../assets/skillicons/css.png"
+// import jsl from "../assets/skillicons/javascript.png"
+// import rl from "../assets/skillicons/react.png"
+// import fl from "../assets/skillicons/flutter.png"
+// import njl from "../assets/skillicons/node.png"
+// import ejl from "../assets/skillicons/express.png"
+// import msl from "../assets/skillicons/mysql.png"
+// import mdl from "../assets/skillicons/mongo.png"
+// import cl from "../assets/skillicons/cl.png"
+// import cppl from "../assets/skillicons/cppl.png"
+// import pyl from "../assets/skillicons/python.png"
+// import ghl from "../assets/skillicons/git.png"
 {/* <h1 className="ltt">Skills</h1>
             <div className="tcontent">
                 <div className="skills">
