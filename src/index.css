@@ -1,3 +1,13 @@
 *{
   margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'kamerik105';
+  src: url('../src/assets/kamerik105/Kamerik105Cyrillic-Book.ttf')format('truetype');
+}
+@font-face {
+  font-family: 'kamerik205';
+  src: url('../src/assets/kamerik205/Kamerik\ 205\ Book.ttf')format('truetype');
 }

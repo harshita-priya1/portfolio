@@ -18,7 +18,16 @@ import ghl from "../assets/skillicons/git.png"
 const Techs = () => {
     return(
         <div className="tech">
-            <h1 className="ltt">Skills</h1>
+            <div className="tech-content">
+                <h1 className="tech-title">Skills</h1>
+            </div>
+        </div>
+    )
+}
+
+export default Techs
+
+{/* <h1 className="ltt">Skills</h1>
             <div className="tcontent">
                 <div className="skills">
                     <img src={htmll} className="l1 ic" alt="HTML"/>
@@ -27,7 +36,7 @@ const Techs = () => {
                     <img src={rl} className="l4 ic" alt="REACT JS"/>
                     <img src={fl} className="l5 ic" alt="FLUTTER"/>
                     <img src={njl} className="l6 ic" alt="NODE JS"/>
-                    {/* <img src={ejl} className="l7 ic" alt="EXPRESS JS"/> */}
+                    <img src={ejl} className="l7 ic" alt="EXPRESS JS"/>
                     <img src={msl} className="l8 ic" alt="MYSQL"/>
                     <img src={mdl} className="l9 ic" alt="MONGO DB"/>
                     <img src={cl} className="l10 ic" alt="C"/>
@@ -36,9 +45,4 @@ const Techs = () => {
                     <img src={ghl} className="l13 ic" alt="GIT"/>
                 </div>
                 <h3 className="stt">And many more to come...!</h3>
-            </div>
-        </div>
-    )
-}
-
-export default Techs
+            </div> */}
