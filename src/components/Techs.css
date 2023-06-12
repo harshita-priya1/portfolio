@@ -14,13 +14,14 @@
     justify-content: center;
     gap: 4vh;
     /* align-items: center; */
-    padding: 10vh 2vw;
+    padding: 10vh 10vw;
 }
 .tech-title {
     font-size: 8vh;
 }
 .tech-skills {
     display:flex;
+    flex:1;
     justify-content: space-evenly;
 
 }
@@ -37,10 +38,11 @@
 }
 .techs>p {
     font-size: 3vh;
+    text-align: center;
 }
 .image {
     /* height: 100%; */
-    width: 20vw;
+    width: 15vw;
     height: auto;
 }
 /* .tcontent {

@@ -56,6 +56,9 @@
         /* background-color: palevioletred; */
     }
 }
+.a4> img {
+    height:4vh;
+}
 .left {
     /* background-color: rgba(160, 154, 165, 0.2);
     backdrop-filter: blur(2px); */

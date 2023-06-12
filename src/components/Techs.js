@@ -29,8 +29,8 @@ const Techs = () => {
                     </div>
                     <div className="techs">
                         <img src={ml} className="image"></img>
-                        <div>Machine Learning</div>
-                        <p>Python, TensorFlow, Panda, OpenCV</p>
+                        <div>  Machine Learning</div>
+                        <p>Python, TensorFlow, Pandas, OpenCV</p>
                     </div>
                 </div>
             </div>
