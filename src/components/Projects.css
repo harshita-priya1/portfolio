@@ -1,5 +1,46 @@
 .project {
-    background-color: #d1bea8;
-    height: 100svh;
-    width: 100svw;
+    /* background-color: #d1bea8; */
+    background-color: #6c543a;
+    height: 100vh;
+    width: 100vw;
+    color: beige;
+    display: flex;
+    padding: 10vh 10vw;
+}
+.project-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.project-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.project-title {
+    font-size: 8vh;
+    font-weight: bold;
+}
+.project-text {
+    font-size: 4vh;
+}
+.project-btn {
+    background-color: transparent;
+    border: none;
+    color: beige;
+    font-size: 4vh;
+}
+.arrow-button {
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+}
+.arrow-left,.arrow-right {
+    background-color: transparent;
+    border: 1px solid beige;
+    color: beige;
+    font-size: 4vh;
 }
