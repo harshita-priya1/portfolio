@@ -18,6 +18,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-right">
+                <img src="" alt="proj1" className="back-img"></img>
+                <img src="" alt="proj2" className="front-img"></img>
+                <img src="" alt="proj3" className="back-img"></img>
             </div>
         </div>
     )
