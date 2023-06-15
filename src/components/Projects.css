@@ -8,7 +8,7 @@
     padding: 10vh 10vw;
 }
 .project-left {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,16 +45,16 @@
     font-size: 4vh;
 }
 .project-right {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .back-img {
-    width: 25%;
+    width: 30%;
     height: 60%;
 }
 .front-img {
-    width: 50%;
-    height: 80%;
+    width: 40%;
+    height: 70%;
 }
