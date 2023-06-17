@@ -83,15 +83,17 @@ const Projects = () => {
             <div className="modal">
             <div className="modal-content">
                 <div className="project-details">
-                <h2>{currentProject.name}</h2>
-                <p>{currentProject.additionalInfo}</p>
-                <a href={currentProject.projectUrl} target="_blank" rel="noopener noreferrer">
-                    View Project
-                </a>
+                    <h2>{currentProject.name}</h2>
+                    <p>{currentProject.additionalInfo}</p>
                 </div>
-                <button className="close-button" onClick={handleCloseModal}>
-                Close
-                </button>
+                <div className="modal-buttons">
+                    <a className="view-button" href={currentProject.projectUrl} target="_blank" rel="noopener noreferrer">
+                        View Project
+                    </a>
+                    <button className="close-button" onClick={handleCloseModal}>
+                    Close
+                    </button>
+                </div>
             </div>
             </div>
         )}
