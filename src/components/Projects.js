@@ -9,28 +9,28 @@ import weather from "../assets/project-icons/weather.png"
 const projects = [
     {
       name: 'The Soil App',
-      description: 'This is project 1',
+      description: 'A cross-platform application to act as an AI assistant for soil engineers and for soil identification.',
       additionalInfo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       imageUrl: soilApp, // is this the right way to do this?
       projectUrl: 'https://example.com/project1',
     },
     {
       name: 'Traffic Sign Recognition',
-      description: 'This is project 2',
+      description: 'A CNN model for Traffic Sign Recognition.',
       additionalInfo: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
       imageUrl: trafficSign,
       projectUrl: 'https://example.com/project2',
     },
     {
       name: 'Concrete Strength Prediction',
-      description: 'This is project 3',
+      description: 'Using multiple machine learning models to predict concrete strength and to compare their accuracies.',
       additionalInfo: 'Aenean euismod odio at sapien convallis, sed scelerisque diam tincidunt.',
       imageUrl: concrete,
       projectUrl: 'https://example.com/project3',
     },
     {
       name: 'React Weather App',
-      description: 'This is project 3',
+      description: 'A simple weather app built with React.',
       additionalInfo: 'Aenean euismod odio at sapien convallis, sed scelerisque diam tincidunt.',
       imageUrl: weather,
       projectUrl: 'https://example.com/project3',
@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
                 <div className="modal-buttons">
                     <a className="view-button" href={currentProject.projectUrl} target="_blank" rel="noopener noreferrer">
-                        View Project
+                        Github Link
                     </a>
                     <button className="close-button" onClick={handleCloseModal}>
                     Close

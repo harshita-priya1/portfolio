@@ -30,13 +30,13 @@ const Contacts = () => {
                     </div>
                 </div>
                 <div className="contact-right">
-                    <div className="c1">Contact Me</div>
+                    {/* <div className="c1">Contact Me</div>
                     <form className="contact-form">
                         <input type="text" placeholder="Full Name"></input>
                         <input type="text" placeholder="Email Address"></input>
                         <textarea placeholder="Message"></textarea>
                         <button type="submit">Send</button>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </div>
