@@ -10,14 +10,14 @@ const projects = [
     {
       name: 'The Soil App',
       description: 'A cross-platform application to act as an AI assistant for soil engineers and for soil identification.',
-      additionalInfo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      additionalInfo: "The soil app intends to make the knowledge gained from years of research available in the hands of common people. People who deal with soil each and every day but don't have enough knowledge to make the most out of it. \nFeatures: \n 1. Soil Identification, using ML models, from an image \n 2. Geotracking \n3. AI integration to answer soil related queries of the user \nTechnologies used: Flutter, Node.js, Express.js, MongoDB, Flask, Python, Tensorflow, OpenAI's GPT-3 ",
       imageUrl: soilApp, // is this the right way to do this?
       projectUrl: 'https://example.com/project1',
     },
     {
       name: 'Traffic Sign Recognition',
       description: 'A CNN model for Traffic Sign Recognition.',
-      additionalInfo: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      additionalInfo: 'A CNN Model for Traffic Sign Recognition. The model is trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset. The model is trained on 43 different classes of traffic signs. The model is trained on 80% of the dataset and tested on the remaining 20%. The model achieved an accuracy of 98.5% on the test set.',
       imageUrl: trafficSign,
       projectUrl: 'https://example.com/project2',
     },
