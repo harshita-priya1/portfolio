@@ -21,7 +21,7 @@ const Contacts = () => {
                     <div className="socials">
                         <div className="c2"><bold>My Socials</bold></div>
                         <div className="contact-icons">
-                            <img src={LinkedIn} alt="LinkedIn"></img>
+                            <img onClick={() =>(window.location.href = "https://www.linkedin.com/in/vikash-kumar-156675227")} src={LinkedIn} alt="LinkedIn"></img>
                             <img src={Twitter} alt="Twitter"></img>
                             <img src={Insta} alt="Instagram"></img>
                             <img src={Github} alt="Github"></img>
