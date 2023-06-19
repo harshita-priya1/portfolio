@@ -17,11 +17,11 @@ const Home = () => {
                     <p className='a2' >I'm <strong>Harshita Priya </strong></p>                    
                     <div className='a3'>a Web and App Developer</div>
                     <div className='a4'>
-                        <img src={LinkedIn} alt="LinkedIn"></img>
-                        <img src={Twitter} alt="Twitter"></img>
-                        <img src={Insta} alt="Instagram"></img>
-                        <img src={Github} alt="Github"></img>
-                        <img src={Gmail} alt="Gmail"></img>
+                    <img onClick={() =>(window.location.href = "https://www.linkedin.com/in/harshita-priya-192955212")} src={LinkedIn} alt="LinkedIn"></img>
+                            {/* <img src={Twitter} alt="Twitter"></img> */}
+                            {/* <img src={Insta} alt="Instagram"></img> */}
+                            <img onClick={() =>(window.location.href = "https://github.com/harshita-priya1")} src={Github} alt="Github"></img>
+                            <a href="mailto:harshita.priya.dev@gmail.com"><img src={Gmail} alt="Gmail"></img></a>
                     </div>
                 </div>
                 

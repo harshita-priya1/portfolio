@@ -21,11 +21,11 @@ const Contacts = () => {
                     <div className="socials">
                         <div className="c2"><bold>My Socials</bold></div>
                         <div className="contact-icons">
-                            <img onClick={() =>(window.location.href = "https://www.linkedin.com/in/vikash-kumar-156675227")} src={LinkedIn} alt="LinkedIn"></img>
-                            <img src={Twitter} alt="Twitter"></img>
-                            <img src={Insta} alt="Instagram"></img>
-                            <img src={Github} alt="Github"></img>
-                            <img src={Gmail} alt="Gmail"></img>
+                            <img onClick={() =>(window.location.href = "https://www.linkedin.com/in/harshita-priya-192955212")} src={LinkedIn} alt="LinkedIn"></img>
+                            {/* <img src={Twitter} alt="Twitter"></img> */}
+                            {/* <img src={Insta} alt="Instagram"></img> */}
+                            <img onClick={() =>(window.location.href = "https://github.com/harshita-priya1")} src={Github} alt="Github"></img>
+                            <a href="mailto:harshita.priya.dev@gmail.com"><img src={Gmail} alt="Gmail"></img></a>
                         </div>
                     </div>
                 </div>

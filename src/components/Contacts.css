@@ -80,6 +80,10 @@
     height: 4vh;
     width: auto;
 }
+.contact-icons>a>img{
+    height: 4vh;
+    width: auto;
+}
 /* .text {
     color: beige;
     font-size: 1.25em;
