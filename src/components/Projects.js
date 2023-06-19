@@ -4,6 +4,7 @@ import soilApp from "../assets/project-icons/soilApp.png"
 import trafficSign from "../assets/project-icons/trafficSign.png"
 import concrete from "../assets/project-icons/concrete.png"
 import weather from "../assets/project-icons/weather.png"
+import portfolio from "../assets/project-icons/portfolioImg.png"
 
 
 const projects = [
@@ -19,7 +20,7 @@ const projects = [
       description: 'A CNN model for Traffic Sign Recognition.',
       additionalInfo: 'A CNN Model was used. The model was trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset. It was trained on 43 different classes of traffic signs. It was trained on 80% of the dataset and tested on the remaining 20%. The model achieved an accuracy of 97% on the test set.',
       imageUrl: trafficSign,
-      projectUrl: 'https://example.com/project2',
+      projectUrl: 'https://github.com/harshita-priya1/traffic_sign_recognition',
     },
     {
       name: 'Concrete Strength Prediction',
@@ -33,7 +34,14 @@ const projects = [
       description: 'A simple weather app built with React.',
       additionalInfo: 'A weather app built with React that uses the OpenWeatherMap API to fetch weather data. It displays the current weather and the weather forecast for the next 5 days for the city selected by the user.',
       imageUrl: weather,
-      projectUrl: 'https://example.com/project3',
+      projectUrl: 'https://github.com/harshita-priya1/weather-app',
+    },
+    {
+      name: 'My Portfolio',
+      description: 'Built with React.',
+      additionalInfo: 'This one itself!',
+      imageUrl: portfolio,
+      projectUrl: 'https://github.com/harshita-priya1/portfolio',
     },
   ];
   
