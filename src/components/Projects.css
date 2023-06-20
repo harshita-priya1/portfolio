@@ -112,3 +112,22 @@
     padding: 5px 10px;
     font-size: 2.5vh;
   }
+
+
+  @media (max-width: 600px) {
+    .project-title {
+      font-size: 5vh;
+  }
+  .project-text {
+      font-size: 2vh;
+  }
+  .project-btn {
+      font-size: 2vh;
+  }
+  .arrow-button {
+      gap: 2vw;
+  }
+  .arrow-left,.arrow-right {
+      font-size: 2vh;
+  }
+  }

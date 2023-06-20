@@ -29,7 +29,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="contact-right">
+                {/* <div className="contact-right"> */}
                     {/* <div className="c1">Contact Me</div>
                     <form className="contact-form">
                         <input type="text" placeholder="Full Name"></input>
@@ -37,7 +37,7 @@ const Contacts = () => {
                         <textarea placeholder="Message"></textarea>
                         <button type="submit">Send</button>
                     </form> */}
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )

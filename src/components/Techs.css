@@ -12,9 +12,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4vh;
+    gap: 2vh;
     /* align-items: center; */
-    padding: 10vh 10vw;
+    padding: 8vh 10vw 8vh 10vw;
 }
 .tech-title {
     font-size: 8vh;
@@ -47,6 +47,19 @@
     height: auto;
 }
 
+@media (max-width: 700px) {
+    .tech-title {
+      font-size: 5vh;
+    }
+  
+    .techs > div {
+      font-size: 3vh;
+    }
+  
+    .techs > p {
+      font-size: 2.5vh;
+    }
+  }
 /* .tcontent {
     display: grid;
     grid-template-columns: 1fr 1fr;
