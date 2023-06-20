@@ -23,6 +23,7 @@
     display:flex;
     flex:1;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 .techs{
@@ -45,6 +46,7 @@
     width: 15vw;
     height: auto;
 }
+
 /* .tcontent {
     display: grid;
     grid-template-columns: 1fr 1fr;
